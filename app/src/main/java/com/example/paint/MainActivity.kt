@@ -68,6 +68,8 @@ class MainActivity : AppCompatActivity(), ColorDiaolog.setColor {
 
             }
             R.id.eraseid -> {
+                picasso.clear()
+
             }
             R.id.lineWidthid -> {
                 showLineWidthDialog()
